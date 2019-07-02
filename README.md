@@ -1,12 +1,14 @@
 # SmartThingsAWSLambdaServerless
-My attempt at creating an AWS Lambda integrated with SmartThings to augment my home automation.  Deploying with Serverless
+My attempt at creating an AWS Lambda integrated with SmartThings to augment my home automation.  Deploying with Serverless.  Note that I'm doing this on Ubuntu 18.04 running inside Windows Services for Linux (WSL).  WSL 2 had a bad timezone bug so I rolled back to WSL1
 
 
 ## Steps to install:
 
-- AWS CLI
-  - set up credentials
 - python3 
+- AWS CLI
+  - pip3 install awscli
+  - .aws/{credentials,config}
+  - no space between params and equals sign or you get java null pointer from some tools.
 - NPM
 - Serverless
   - https://serverless.com/blog/framework-example-golang-lambda-support/  
