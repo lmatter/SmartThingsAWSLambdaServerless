@@ -1,5 +1,5 @@
-# SmartThings - AWS Lambda integration using Serverless for deployment
-My attempt at creating an AWS Lambda integrated with SmartThings to augment my home automation.  Deploying with Serverless.  Note that I'm doing this on Ubuntu 18.04 running inside Windows Services for Linux (WSL).  WSL 2 had a bad timezone bug so I rolled back to WSL1
+# SmartThings - AWS Lambda integration using Serverless 
+My attempt at creating an AWS Lambda integrated with SmartThings to augment my home automation.  Lamdas are written in Go (golang), deploying with Serverless.  Note that I'm doing this on Ubuntu 18.04 running inside Windows Services for Linux (WSL).  WSL 2 had a bad timezone bug so I rolled back to WSL1
 
 These notes are crytptic while I'm still figuring out how to do this (don't want documentation to be a barrier), but feel free to reach out to me with any questions you may have.  
 ## Steps to install:
