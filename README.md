@@ -13,6 +13,9 @@ My attempt at creating an AWS Lambda integrated with SmartThings to augment my h
 - Serverless
   - https://serverless.com/blog/framework-example-golang-lambda-support/  
   - Ensure AWS IAM permissions are set correctly
+  - Guard against https://forum.serverless.com/t/framework-is-ignoring-profile-aws-account-settings-per-stage-profile/4613/5
+  - SmartThings
+    - This might be easiest example:  https://github.com/derekpovah/aws-lambda-st-iot-button
 
 
 ## Projects
