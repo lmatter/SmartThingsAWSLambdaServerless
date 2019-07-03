@@ -11,6 +11,8 @@ These notes are crytptic while I'm still figuring out how to do this (don't want
   - pip3 install awscli
   - .aws/{credentials,config}
   - no space between params and equals sign or you get java null pointer from some tools.
+- Lambda
+  - The most important page I found.  https://community.smartthings.com/t/while-creating-smartapp-it-response-with-error-code-422/147806/3
 - NPM
 - Serverless
   - https://serverless.com/blog/framework-example-golang-lambda-support/  
