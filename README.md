@@ -18,6 +18,7 @@ These notes are crytptic while I'm still figuring out how to do this (don't want
   - https://serverless.com/blog/framework-example-golang-lambda-support/  
   - Ensure AWS IAM permissions are set correctly
   - Guard against https://forum.serverless.com/t/framework-is-ignoring-profile-aws-account-settings-per-stage-profile/4613/5
+    - explicitely pass region on the serverless command line.
   - SmartThings
     - This might be easiest example:  https://github.com/derekpovah/aws-lambda-st-iot-button
 
