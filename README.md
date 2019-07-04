@@ -1,4 +1,8 @@
 # SmartThings - AWS Lambda integration using Serverless 
+*Update - I abandoned this in favor or writing my own webhook and using Let's Encrypt to provide SSL
+
+For historical purposes:
+
 My attempt at creating an AWS Lambda integrated with SmartThings to augment my home automation.  Lamdas are written in Go ([golang](https://golang.org)), deploying with [Serverless](https://serverless.com).  Note that I'm doing this on Ubuntu 18.04 running inside Windows Services for Linux (WSL).  WSL 2 had a bad timezone bug so I rolled back to WSL1
 
 These notes are crytptic while I'm still figuring out how to do this (don't want documentation to be a barrier), but feel free to reach out to me with any questions you may have.  
@@ -14,6 +18,8 @@ These notes are crytptic while I'm still figuring out how to do this (don't want
 - Lambda
   - The most important page I found.  https://community.smartthings.com/t/while-creating-smartapp-it-response-with-error-code-422/147806/3
 - NPM
+- Swaggar 
+  - It would be nice to just create a single JSON/Yaml file to describe the API and generate the code, etc, but that apppears complicated.
 - Serverless
   - https://serverless.com/blog/framework-example-golang-lambda-support/  
   - Ensure AWS IAM permissions are set correctly
